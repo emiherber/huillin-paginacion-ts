@@ -69,7 +69,8 @@ export class EjemploPaginacion implements IHuillinPaginacion<Persona> {
 }
 ```
 ## Instalar
-1. Ignorar este paso sí ya tiene registrada la configuración para instalar paquetes desde GitHub. Desde la terminal ejecutar el siguiente comando npm config set registry=https://npm.pkg.github.com/SU_USUARIO_GITHUB.
+1. Ignorar este paso sí ya tiene registrada la configuración para instalar paquetes desde GitHub. Desde la terminal ejecutar el siguiente comando 
+```bash npm config set registry=https://npm.pkg.github.com/SU_USUARIO_GITHUB. ```
 2. npm install @emiherber/huillin-paginacion-ts
 
 ## Autor
