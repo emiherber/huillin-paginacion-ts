@@ -1,0 +1,19 @@
+{
+  "name": "huillin-paginacion-ts",
+  "version": "1.0.0",
+  "description": "Librería de paginación genérica, establece una estructura de clases estándar en el proyecto al implementar una paginación.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd Ejemplo && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiherber/huillin-paginacion-ts.git"
+  },
+  "author": "emiherber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiherber/huillin-paginacion-ts/issues"
+  },
+  "homepage": "https://github.com/emiherber/huillin-paginacion-ts#readme"
+}
