@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/emiherber/huillin-paginacion-ts/issues"
   },
-  "homepage": "https://github.com/emiherber/huillin-paginacion-ts#readme"
+  "homepage": "https://github.com/emiherber/huillin-paginacion-ts#readme",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/@emiherber" 
+  }
 }
