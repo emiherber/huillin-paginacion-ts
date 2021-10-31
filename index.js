@@ -1,7 +1,5 @@
-import HuillinPaginacion from './Clases/HuillinPaginacion';
-import IHuillinPaginacion from './Interfaces/IHuillinPaginacion/IHuillinPaginacion';
+const { HuillinPaginacion } = require('./Clases/HuillinPaginacion');
 
-export {
-  HuillinPagionacion,
-  IHuillinPagionacion
+export default {
+  HuillinPaginacion,
 };

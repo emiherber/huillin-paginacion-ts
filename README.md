@@ -19,7 +19,7 @@ Ir a la carpeta Ejemplo y ejecutar el siguiente comando en la consola:
 
 ```javascript
 import { HuillinPaginacion } from '../Clases/HuillinPaginacion';
-import { IHuillinPagionacion } from '../Interfaces/IHuillinPaginacion';
+import { IHuillinPaginacion } from '../Interfaces/IHuillinPaginacion';
 
 export class EjemploPaginacion implements IHuillinPaginacion<T> {
   paginacion: HuillinPaginacion<T>;
