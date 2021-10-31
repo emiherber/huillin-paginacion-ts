@@ -1,6 +1,6 @@
 {
   "name": "@emiherber/huillin-paginacion-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Librería de paginación genérica, establece una estructura de clases estándar en el proyecto al implementar una paginación.",
   "main": "index.js",
   "scripts": {

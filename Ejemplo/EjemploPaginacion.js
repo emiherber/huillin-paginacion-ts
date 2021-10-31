@@ -1,11 +1,11 @@
 "use strict";
 exports.__esModule = true;
 exports.EjemploPaginacion = void 0;
-var HuillinPagionacion_1 = require("../Clases/HuillinPagionacion");
+var HuillinPaginacion_1 = require("../Clases/HuillinPaginacion");
 var Persona_1 = require("./Persona");
 var EjemploPaginacion = /** @class */ (function () {
     function EjemploPaginacion() {
-        this.paginacion = new HuillinPagionacion_1.HuillinPagionacion(0, 5, 0);
+        this.paginacion = new HuillinPaginacion_1.HuillinPaginacion(0, 5, 0);
     }
     EjemploPaginacion.prototype.navegacionPaginas = function (event) {
         console.log("Event");

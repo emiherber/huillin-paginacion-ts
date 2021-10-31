@@ -1,4 +1,4 @@
-export class HuillinPagionacion<T> {
+export class HuillinPaginacion<T> {
   Total: number;
   TamanioPagina: number;
   NumeroPagina: number;

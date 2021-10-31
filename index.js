@@ -1,7 +1,7 @@
-import HuillinPagionacion from './Clases/HuillinPagionacion';
-import IHuillinPagionacion from './Interfaces/IHuillinPagionacion/IHuillinPagionacion';
+import HuillinPaginacion from './Clases/HuillinPaginacion';
+import IHuillinPaginacion from './Interfaces/IHuillinPaginacion/IHuillinPaginacion';
 
-export default {
+export {
   HuillinPagionacion,
   IHuillinPagionacion
 };

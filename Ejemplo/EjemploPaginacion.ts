@@ -1,12 +1,12 @@
-import { HuillinPagionacion } from '../Clases/HuillinPagionacion';
-import { IHuillinPagionacion } from '../Interfaces/IHuillinPagionacion';
+import { HuillinPaginacion } from '../Clases/HuillinPaginacion';
+import { IHuillinPaginacion } from '../Interfaces/IHuillinPaginacion';
 import { Persona } from './Persona';
 
-export class EjemploPaginacion implements IHuillinPagionacion<Persona> {
-  paginacion: HuillinPagionacion<Persona>;
+export class EjemploPaginacion implements IHuillinPaginacion<Persona> {
+  paginacion: HuillinPaginacion<Persona>;
   
   constructor() {
-    this.paginacion = new HuillinPagionacion<Persona>(0,5,0);
+    this.paginacion = new HuillinPaginacion<Persona>(0,5,0);
   }
 
   navegacionPaginas(event: any): void {
